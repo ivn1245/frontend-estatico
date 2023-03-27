@@ -69,6 +69,10 @@
     border-radius: 360px;
   }
 
+  .para_imagen img{
+    
+  }
+
   .texto_presentación {
     display:flex;
     flex-direction: column;
