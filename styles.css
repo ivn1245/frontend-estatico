@@ -3,6 +3,11 @@
     margin: 0px;
   }
 
+ section{
+  padding-left: 150px;
+  padding-right: 150px;
+ }
+
   header {
     position:fixed;
     display: flex;
@@ -17,7 +22,7 @@
   }
   
   .title {
-    font-size: 36px;
+    font-size: 42px;
     margin: 0;
   }
   
@@ -100,6 +105,8 @@
     padding: 15px;
   }
 
+
+
   .cuadro-lenguajes{
     width:85%;
     height: 70%;
@@ -115,29 +122,13 @@
     justify-items: center;
   }
 
-  .cuadro-lenguajes div{
-    border: 5px solid black;
-    height: 130px;
-    width: 130px;
-  }
-
-  .cuadro-lenguajes div h3{
-    display: flex;
-    justify-content: center;
-    margin: 0px;
-  }
-
-  .cuadro-lenguajes div img{
-    width:100px;
-    height:100px;
-  }
 
   .cuadro-tecnologias{
     width: 25vw;
     border: 5px solid black;
     border-radius: 20px;
-    height: 90%;
-    margin-top: 25px;
+    height: 70%;
+    margin-top: 80px;
   }
 
   .titulo-aside{
@@ -159,9 +150,12 @@
     height: 80vh;
     background-color: #e3e3e3;
   }
-
-  /* contacto*/
-  .contacto{
+  .proyectos{
     height: 80vh;
     background-color: #d3d3d3;
+  }
+  /* contacto*/
+  .contacto{
+    height: 20vh;
+    background-color: rgba(252, 170, 141, 0.838);
   }
