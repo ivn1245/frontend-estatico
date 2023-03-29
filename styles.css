@@ -2,11 +2,13 @@
 
   body{
     background-image: url(fondo\ 3.png);
+    background-color: #e0faf7;
     background-position: top;
     background-repeat: repeat-y;
     background-size: 1350px;
     width: 100%;
     margin: 0px;
+    font-family: 'Concert One', cursive;
   }
 
  section{
@@ -51,13 +53,14 @@
 
   nav li a:hover {
     background-color: #ff7e5d;
-    color:black
+    color:black;
+    transition: 0.5s;
   
   }
   /* comienzo de la presentacion */
 
   .presentacion {
-    height: 100vh;
+    height: 670px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,7 +77,6 @@
     background-position: center;
     background-size: 360px;
     width: 370px;
-    /*border: 5px solid black;*/
     border-radius: 360px;
   }
 
@@ -104,88 +106,145 @@
 
   .título{
     font-family: 'Concert One', cursive;
+    font-size: 20px;
     margin-bottom: -20px;
   }  
   
  .texto_presentación button{
-  height: 20px;
-  
+  background-color: rgb(215, 253, 253);
+  height: 40px;
+  width: 150px;
+  font-size: 15px;
   font-family: 'Concert One', cursive;
   border-radius: 5px;
-  
  }
+
+ .texto_presentación button:hover{
+  background-color: rgb(46, 154, 212);
+ }
+
+
+
+
+
+
+
+
+
+
+
   /* habilidades*/
 
-  .habilidades{
-    height: 90vh;
-    /*background-color: #d3d3d3;*/
-    display:flex;
-
-  }
-
-  .texto-izq-habilidades{
-    width: 70vw;
-  }
-  
-  .titulo-habilidades{
-    margin: 0;
-    padding: 15px;
-  }
-
-
-
-  .cuadro-lenguajes{
-    width:660px;
-    height: 425px;
-
-    border: 5px solid black;
-    border-radius: 30px;
-    background-color: #656363b6;
-    margin-left: 30px;
-    margin-top: 20px;
-    align-items: center;
-    justify-items: center;
-  }
-
-
-  .cuadro-tecnologias{
-    width: 25vw;
-    border: 5px solid black;
-    border-radius: 20px;
-    height: 70%;
+  .about-me{
+    height: 800px;
     margin-top: 80px;
+    /*background-color: #d3d3d3;*/
+    display:block;
   }
 
-  .titulo-aside{
-    display: flex;
-    justify-content: center;
+  .titulo-about-me{
+    font-size: 25px;
   }
 
-  .lista-tecnologias{
-    display: flex;
-    flex-direction: column;
-    height: 80%;
-    align-items:flex-start;
-    justify-content: space-evenly;
+  .hr-about-me{
+    height: 3px;
+    border-radius: 3px;
+    background-color: rgb(46, 154, 212);
   }
+
+ .contenedor-about-me{
+  background-color: #fefefe;
+  width: 100%;
+  margin-top: 100px;
+  height: 500px;
+  display:grid;
+  grid-template-areas: 
+  "a b b"
+  "a c c"
+  "c c c";
+ }
+
+ .contenedor-about-me div{
+  background-color: #ff7e5d;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+ }
+
+ .imagen-about-me{
+  grid-area: a;
+ }
+
+ .etiquetas-about-me{
+  grid-area: b;
+ }
+
+ .descripcion-about-me{
+  grid-area: c;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
 
   /*estudios*/
 
   .estudios{
-    height: 80vh;
+    height: 550px;
     /*background-color: #e3e3e3;*/
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*proyectos y experiencia laboral*/
+
   .proyectos{
-    height: 80vh;
+    height: 550px;
     /*background-color: #d3d3d3;*/
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* contacto*/
   .contacto{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 200px;
     padding-left: 350px ;
     padding-right: 350px;
     background-color: rgb(0, 0, 0);
