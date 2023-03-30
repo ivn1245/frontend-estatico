@@ -123,16 +123,6 @@
   background-color: rgb(46, 154, 212);
  }
 
-
-
-
-
-
-
-
-
-
-
   /* about me y habilidades*/
 
   .about-me{
@@ -217,18 +207,6 @@
     background-color: rgb(155, 239, 211);
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
   /*estudios*/
 
   .estudios{
@@ -236,7 +214,17 @@
     background-color: #e3e3e3;
   }
 
+  .titulo-estudios{
+    font-size: 25px;
+  }
 
+  .hr-estudios{
+    height: 3px;
+    border-radius: 3px;
+    background-color: rgb(46, 154, 212);
+  }
+
+  
 
 
 
