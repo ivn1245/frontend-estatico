@@ -152,36 +152,11 @@
     background-color: rgb(46, 154, 212);
   }
 
- .contenedor-about-me{
-  background-color: #fefefe;
-  width: 100%;
-  margin-top: 100px;
-  height: 500px;
-  display:grid;
-  grid-template-areas: 
-  "a b b"
-  "a c c"
-  "c c c";
- }
-
- .contenedor-about-me div{
-  background-color: #ff7e5d;
-  border: 1px solid black;
-  padding: 5px;
-  text-align: center;
- }
-
- .imagen-about-me{
-  grid-area: a;
- }
-
- .etiquetas-about-me{
-  grid-area: b;
- }
-
- .descripcion-about-me{
-  grid-area: c;
- }
+  .contenedor-about-me{
+    height: 70%;
+    width: 100%;
+    
+  }
 
 
 
