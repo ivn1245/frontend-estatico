@@ -126,14 +126,14 @@
   /* about me y habilidades*/
 
   .about-me{
-    height: 800px;
+    height: 1000px;
     margin-top: 80px;
     /*background-color: #d3d3d3;*/
     display:block;
   }
 
   .titulo-about-me{
-    font-size: 25px;
+    font-size: 35px;
   }
 
   .hr-about-me{
@@ -146,7 +146,7 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    height: 70%;
+    height: auto;
     width: 100%;
   }
 
@@ -185,7 +185,7 @@
   }
   
   .content {
-  font-size: 30px;
+  font-size: 25px;
     grid-area: content;
   }
   
@@ -204,18 +204,143 @@
   }
   .box:hover{
     transition:0.4s;
-    background-color: rgb(155, 239, 211);
+    background-color: rgb(179, 247, 247);
   }
+
+  /* comienzo softskills */
+.soft-skills{
+  padding:50px 20px;
+}
+.soft-skills .contenido-seccion{
+  max-width: 700px;
+  margin: auto;
+}
+
+.soft-skills h2{
+  font-size: 38px;
+  text-align: center;
+  padding: 20px 0;
+
+}
+
+.soft-skills .fila{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.soft-skills .fila .col{
+ 
+  width: 100%;
+  padding: 0 40px;
+}
+
+.soft-skills .skill > span{
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.soft-skills .skill .barra-skill{
+  height: 8px;
+  width: 100%;
+  background-color: #000000;
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.soft-skills .skill .progreso{
+  background-color: #97ebf1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 8px;
+  border-radius: 10px;
+}
+
+.soft-skills .skill .barra-skill span{
+  position: absolute;
+  color: #000000;
+  font-weight: bold;
+  height: 35px;
+  width: 35px;
+  background-color: #97ebf1;
+  border-radius: 50px;
+  line-height: 35px;
+  text-align: center;
+  top: -14px;
+  right: -15px;
+  font-size: 17px;
+}
+/* animaciones */
+
+.soft-skills .skill .trabajo{
+  width: 0%;
+  animation: 3s trabajo forwards;
+}
+@keyframes trabajo {
+  0%{width: 0%;}
+  100%{width: 97%;}
+}
+
+.soft-skills .skill .creatividad{
+  width: 0%;
+  animation: 3s creatividad forwards;
+}
+
+@keyframes creatividad {
+  0%{width: 0%;}
+  100%{width: 85%;}
+}
+
+.soft-skills .skill .comunicacion{
+  width: 0%;
+  animation: 3s comunicacion forwards;
+}
+
+@keyframes comunicacion {
+  0%{width: 0%;}
+  100%{width: 93%;}
+}
+
+.soft-skills .skill .dedicacion{
+  width: 0%;
+  animation: 3s dedicacion forwards;
+}
+
+@keyframes dedicacion {
+  0%{width: 0%;}
+  100%{width: 90%;}
+}
+
+.soft-skills .skill .liderazgo{
+  width: 0%;
+  animation: 3s liderazgo forwards;}
+  
+@keyframes liderazgo {
+  0%{width: 0%;}
+  100%{width: 84%;}
+  }
+
+.soft-skills .skill .altruismo{
+   width: 0%;
+ animation: 3s altruismo forwards;}
+      
+@keyframes altruismo {
+   0%{width: 0%;}
+  100%{width: 90%;}
+}
 
   /*estudios*/
 
   .estudios{
     height: 550px;
-    background-color: #e3e3e3;
+    /* background-color: #e3e3e3; */
   }
 
   .titulo-estudios{
-    font-size: 25px;
+    font-size: 35px;
   }
 
   .hr-estudios{
